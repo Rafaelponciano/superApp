@@ -1,0 +1,15 @@
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/bin/Debug/net8.0/SuperApp.Application.deps.json
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/bin/Debug/net8.0/SuperApp.Application.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/bin/Debug/net8.0/SuperApp.Application.pdb
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/bin/Debug/net8.0/SuperApp.Domain.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/bin/Debug/net8.0/SuperApp.Domain.pdb
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.csproj.AssemblyReference.cache
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.AssemblyInfoInputs.cache
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.AssemblyInfo.cs
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.csproj.CoreCompileInputs.cache
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.4C621C92.Up2Date
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/refint/SuperApp.Application.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.pdb
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/ref/SuperApp.Application.dll

@@ -1,0 +1,17 @@
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/bin/Debug/net8.0/SuperApp.Repository.deps.json
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/bin/Debug/net8.0/SuperApp.Repository.runtimeconfig.json
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/bin/Debug/net8.0/SuperApp.Repository.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/bin/Debug/net8.0/SuperApp.Repository.pdb
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/bin/Debug/net8.0/SuperApp.Domain.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/bin/Debug/net8.0/SuperApp.Domain.pdb
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.Repository.csproj.AssemblyReference.cache
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.Repository.AssemblyInfoInputs.cache
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.Repository.AssemblyInfo.cs
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.Repository.csproj.CoreCompileInputs.cache
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.A2A77D20.Up2Date
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.Repository.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/refint/SuperApp.Repository.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.Repository.pdb
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/SuperApp.Repository.genruntimeconfig.cache
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/Debug/net8.0/ref/SuperApp.Repository.dll
