@@ -158,3 +158,4 @@
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/bin/Debug/net8.0/SuperApp.Repository.pdb
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/bin/Debug/net8.0/BCrypt.Net-Next.dll
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/obj/Debug/net8.0/SuperApp.Api.sourcelink.json
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

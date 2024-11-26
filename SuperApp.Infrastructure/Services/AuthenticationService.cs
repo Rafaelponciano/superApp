@@ -22,7 +22,27 @@ public class AuthenticationService : IAuthenticationService
 
     public Authentication Register(User user)
     {
-        var dbUser = _userService.GetByEmail(user.Email);
+        User? dbUser;
+        if (string.IsNullOrEmpty(user.Email))
+            throw new Exception("EmailRequired");
+
+        try
+        {
+            dbUser = _userService.GetByEmail(user.Email);
+        }
+        catch (Exception e)
+        {
+            if (e.Message.Equals("NotFound"))
+            {
+                dbUser = null;
+            }
+            else
+            {
+                throw;
+            }
+            
+        }
+        
         if (dbUser is not null)
             throw new Exception("AlreadyExist");
         

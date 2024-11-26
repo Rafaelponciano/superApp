@@ -62,7 +62,7 @@ public class UserRepository : IUserRepository
 
     public User GetByEmail(string email)
     {
-        var dbUser = _dataContext.Users.First(user => user.Email == email);
+        var dbUser = _dataContext.Users.FirstOrDefault(user => user.Email == email);
         if (dbUser is null) throw new Exception("NotFound");
 
         return dbUser;

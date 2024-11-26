@@ -19,7 +19,8 @@ public class AutoMapperService : IAutoMapperService
         return new List<Profile>()
         {
             new SuperHeroProfile(),
-            new UserProfile()
+            new UserProfile(),
+            new AuthenticationProfile()
         };
     }
 

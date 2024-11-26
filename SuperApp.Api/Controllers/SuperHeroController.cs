@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SuperApp.Application.Heroes.Commands.Delete;
 using SuperApp.Application.Heroes.Commands.Insert;
@@ -8,6 +9,7 @@ namespace SuperApp.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+[Authorize]
 public class SuperHeroController : Controller
 {
     private readonly IGetAllHeroQuery _getAllHeroQuery;
