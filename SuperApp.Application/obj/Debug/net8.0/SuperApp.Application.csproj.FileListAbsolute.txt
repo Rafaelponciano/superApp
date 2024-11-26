@@ -13,3 +13,4 @@
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/refint/SuperApp.Application.dll
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.pdb
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/ref/SuperApp.Application.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/Debug/net8.0/SuperApp.Application.sourcelink.json

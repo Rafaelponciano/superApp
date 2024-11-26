@@ -13,6 +13,7 @@
         "packagesPath": "/Users/rafaelpl/.nuget/packages/",
         "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
         ],
@@ -36,6 +37,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -76,6 +82,7 @@
         "packagesPath": "/Users/rafaelpl/.nuget/packages/",
         "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
         ],
@@ -95,6 +102,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {

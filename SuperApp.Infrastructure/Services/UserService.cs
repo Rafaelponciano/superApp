@@ -18,11 +18,13 @@ public class UserService : IUserService
 
     public User Insert(User user)
     {
+        user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
         return _userRepository.Insert(user);
     }
 
     public User Update(User user)
     {
+        user.Password = BCrypt.Net.BCrypt.HashPassword(user.Password);
         return _userRepository.Update(user);
     }
 
@@ -44,5 +46,13 @@ public class UserService : IUserService
     public User GetByEmail(string email)
     {
         return _userRepository.GetByEmail(email);
+    }
+    
+    public bool CheckPassword(string email, string password)
+    {
+        var user = _userRepository.GetByEmail(email);
+        if (user is null) return false;
+        
+        return BCrypt.Net.BCrypt.Verify(password, user.Password);
     }
 }

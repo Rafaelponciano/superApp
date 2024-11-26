@@ -35,6 +35,20 @@ public class AuthenticationService : IAuthenticationService
 
     public Authentication Login(string email, string password)
     {
-        throw new NotImplementedException();
+        if (_userService.CheckPassword(email, password))
+        {
+            var user = _userService.GetByEmail(email);
+            if (user is null)
+                throw new Exception("UserNotFound");
+            
+            var authentication = _autoMapperService.Map<User, Authentication>(user);
+            authentication.Token = _jwtTokenGenerator.GenerateToken(user.Id, user.FirstName, user.LastName);
+            
+            return authentication;
+        }
+        else
+        {
+            throw new Exception("InvalidCredentials");
+        }
     }
 } 

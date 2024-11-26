@@ -9,3 +9,4 @@
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/Debug/net8.0/refint/SuperApp.Domain.dll
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.pdb
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/Debug/net8.0/ref/SuperApp.Domain.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.sourcelink.json

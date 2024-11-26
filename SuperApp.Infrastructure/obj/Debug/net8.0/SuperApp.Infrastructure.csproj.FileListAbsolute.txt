@@ -17,3 +17,4 @@
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/obj/Debug/net8.0/refint/SuperApp.Infrastructure.dll
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/obj/Debug/net8.0/SuperApp.Infrastructure.pdb
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/obj/Debug/net8.0/ref/SuperApp.Infrastructure.dll
+/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/obj/Debug/net8.0/SuperApp.Infrastructure.sourcelink.json
