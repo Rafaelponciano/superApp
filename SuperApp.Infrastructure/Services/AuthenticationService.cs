@@ -19,6 +19,25 @@ public class AuthenticationService : IAuthenticationService
         _jwtTokenGenerator = jwtTokenGenerator;
         _autoMapperService = autoMapperService;
     }
+    
+    private User? TryGetUserByEmail(string email)
+    {
+        try
+        {
+            return _userService.GetByEmail(email);
+        }
+        catch (Exception e)
+        {
+            if (e.Message.Equals("NotFound"))
+            {
+                return null;
+            }
+            else
+            {
+                throw;
+            }
+        }
+    }
 
     public Authentication Register(User user)
     {
@@ -26,22 +45,7 @@ public class AuthenticationService : IAuthenticationService
         if (string.IsNullOrEmpty(user.Email))
             throw new Exception("EmailRequired");
 
-        try
-        {
-            dbUser = _userService.GetByEmail(user.Email);
-        }
-        catch (Exception e)
-        {
-            if (e.Message.Equals("NotFound"))
-            {
-                dbUser = null;
-            }
-            else
-            {
-                throw;
-            }
-            
-        }
+        dbUser = TryGetUserByEmail(user.Email);
         
         if (dbUser is not null)
             throw new Exception("AlreadyExist");
