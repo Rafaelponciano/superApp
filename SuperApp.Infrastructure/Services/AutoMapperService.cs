@@ -1,5 +1,5 @@
 using AutoMapper;
-using SuperApp.Application.Heroes.Contract;
+using SuperApp.Application.Interfaces;
 using SuperApp.Infrastructure.Profiles;
 
 namespace SuperApp.Infrastructure.Services;

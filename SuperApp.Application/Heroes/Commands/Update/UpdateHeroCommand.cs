@@ -1,5 +1,6 @@
 using SuperApp.Application.Heroes.Contract;
 using SuperApp.Application.Heroes.Queries;
+using SuperApp.Application.Interfaces;
 using SuperApp.Domain.SuperHeroes;
 
 namespace SuperApp.Application.Heroes.Commands.Update;

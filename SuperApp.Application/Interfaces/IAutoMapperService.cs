@@ -1,4 +1,4 @@
-namespace SuperApp.Application.Heroes.Contract;
+namespace SuperApp.Application.Interfaces;
 
 public interface IAutoMapperService
 {

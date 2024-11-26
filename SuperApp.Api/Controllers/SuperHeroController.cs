@@ -74,7 +74,7 @@ public class SuperHeroController : Controller
         return Ok(superHeroDto);
     }
     
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public ActionResult<List<SuperHeroDTO>> DeleteHero(int id)
     {
         _deleteHeroCommand.Execute(id);
