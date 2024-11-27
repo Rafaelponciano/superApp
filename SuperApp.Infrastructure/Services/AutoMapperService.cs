@@ -1,5 +1,5 @@
 using AutoMapper;
-using SuperApp.Application.Heroes.Contract;
+using SuperApp.Application.Interfaces;
 using SuperApp.Infrastructure.Profiles;
 
 namespace SuperApp.Infrastructure.Services;
@@ -19,7 +19,8 @@ public class AutoMapperService : IAutoMapperService
         return new List<Profile>()
         {
             new SuperHeroProfile(),
-            new UserProfile()
+            new UserProfile(),
+            new AuthenticationProfile()
         };
     }
 

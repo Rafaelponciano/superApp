@@ -1,4 +1,5 @@
 using SuperApp.Application.Heroes.Contract;
+using SuperApp.Application.Interfaces;
 using SuperApp.Domain.SuperHeroes;
 
 namespace SuperApp.Application.Heroes.Queries;

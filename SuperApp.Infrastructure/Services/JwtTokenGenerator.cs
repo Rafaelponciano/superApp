@@ -1,18 +1,27 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using SuperApp.Application.Interfaces;
+using SuperApp.Infrastructure.Configuration;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
 namespace SuperApp.Infrastructure.Services;
 
 public class JwtTokenGenerator : IJwtTokenGenerator
 {
+    private readonly JwtSettings _jwtSettings;
+
+    public JwtTokenGenerator(IOptions<JwtSettings> jwtSettings)
+    {
+        _jwtSettings = jwtSettings.Value;
+    }
+    
     public string GenerateToken(int userId, string firstName, string lastName)
     {
         var signingsCredentials = new SigningCredentials(
-            new SymmetricSecurityKey(Encoding.UTF8.GetBytes("sup3r-4pp-k3y-s3cr3t")),
+            new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.SecretKey)),
             SecurityAlgorithms.HmacSha256);
         var claims = new[]
         {
@@ -23,11 +32,14 @@ public class JwtTokenGenerator : IJwtTokenGenerator
         };
 
         var securityToken = new JwtSecurityToken(
-            issuer:"SuperApp",
+            issuer: _jwtSettings.ValidIssuer,
+            audience: _jwtSettings.ValidAudience,
             claims: claims,
             expires: DateTime.Now.AddDays(1),
             signingCredentials: signingsCredentials);
 
         return new JwtSecurityTokenHandler().WriteToken(securityToken);
     }
+    
+    
 }

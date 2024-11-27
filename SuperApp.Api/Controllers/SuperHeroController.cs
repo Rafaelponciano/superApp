@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SuperApp.Application.Heroes.Commands.Delete;
 using SuperApp.Application.Heroes.Commands.Insert;
@@ -8,6 +9,7 @@ namespace SuperApp.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
+// [Authorize]
 public class SuperHeroController : Controller
 {
     private readonly IGetAllHeroQuery _getAllHeroQuery;
@@ -33,7 +35,8 @@ public class SuperHeroController : Controller
     [HttpGet]
     public Task<ActionResult<List<SuperHeroDTO>>> GetAllHeroes()
     {
-        return Task.FromResult<ActionResult<List<SuperHeroDTO>>>(Ok(_getAllHeroQuery.Execute()));
+        var retorno = _getAllHeroQuery.Execute();
+        return Task.FromResult<ActionResult<List<SuperHeroDTO>>>(Ok(retorno));
     }
     
     [HttpGet("{id}")]
@@ -65,14 +68,14 @@ public class SuperHeroController : Controller
     }
     
     [HttpPut]
-    public ActionResult<SuperHeroDTO> InsertHero(SuperHeroDTO updateSuperHeroDto)
+    public ActionResult<SuperHeroDTO> UpdateHero(SuperHeroDTO updateSuperHeroDto)
     {
         var superHeroDto = _updateHeroCommand.Execute(updateSuperHeroDto);
 
         return Ok(superHeroDto);
     }
     
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public ActionResult<List<SuperHeroDTO>> DeleteHero(int id)
     {
         _deleteHeroCommand.Execute(id);

@@ -12,6 +12,7 @@ public class AuthenticationProfile : Profile
         CreateMap<AuthenticationResultDTO, Authentication>();
         CreateMap<Authentication, AuthenticationResultDTO>();
         
-        CreateMap<User, Authentication>();
+        CreateMap<User, Authentication>()
+            .ForMember(dest => dest.UserId, opt => opt.MapFrom(src => src.Id));;
     }
 }
