@@ -10,3 +10,15 @@
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.pdb
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/Debug/net8.0/ref/SuperApp.Domain.dll
 /Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.sourcelink.json
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/bin/Debug/net8.0/SuperApp.Domain.deps.json
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/bin/Debug/net8.0/SuperApp.Domain.dll
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/bin/Debug/net8.0/SuperApp.Domain.pdb
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.AssemblyInfoInputs.cache
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.AssemblyInfo.cs
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.csproj.CoreCompileInputs.cache
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.sourcelink.json
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.dll
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/refint/SuperApp.Domain.dll
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/SuperApp.Domain.pdb
+/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/Debug/net8.0/ref/SuperApp.Domain.dll

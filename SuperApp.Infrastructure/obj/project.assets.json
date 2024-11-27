@@ -4491,11 +4491,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/SuperApp.Infrastructure.csproj",
+      "projectUniqueName": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Infrastructure/SuperApp.Infrastructure.csproj",
       "projectName": "SuperApp.Infrastructure",
-      "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/SuperApp.Infrastructure.csproj",
+      "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Infrastructure/SuperApp.Infrastructure.csproj",
       "packagesPath": "/Users/rafaelpl/.nuget/packages/",
-      "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/obj/",
+      "outputPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Infrastructure/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -4511,14 +4511,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/SuperApp.Application.csproj": {
-              "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/SuperApp.Application.csproj"
+            "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Application/SuperApp.Application.csproj": {
+              "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Application/SuperApp.Application.csproj"
             },
-            "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/SuperApp.Domain.csproj": {
-              "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/SuperApp.Domain.csproj"
+            "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/SuperApp.Domain.csproj": {
+              "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/SuperApp.Domain.csproj"
             },
-            "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/SuperApp.Repository.csproj": {
-              "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/SuperApp.Repository.csproj"
+            "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Repository/SuperApp.Repository.csproj": {
+              "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Repository/SuperApp.Repository.csproj"
             }
           }
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/SuperApp.Domain.csproj",
+      "projectUniqueName": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/SuperApp.Domain.csproj",
       "projectName": "SuperApp.Domain",
-      "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/SuperApp.Domain.csproj",
+      "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/SuperApp.Domain.csproj",
       "packagesPath": "/Users/rafaelpl/.nuget/packages/",
-      "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/",
+      "outputPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
