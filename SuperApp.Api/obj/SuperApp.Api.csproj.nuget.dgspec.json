@@ -13,6 +13,7 @@
         "packagesPath": "/Users/rafaelpl/.nuget/packages/",
         "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
         ],
@@ -91,6 +92,7 @@
         "packagesPath": "/Users/rafaelpl/.nuget/packages/",
         "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
         ],
@@ -159,6 +161,7 @@
         "packagesPath": "/Users/rafaelpl/.nuget/packages/",
         "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
         ],
@@ -217,6 +220,7 @@
         "packagesPath": "/Users/rafaelpl/.nuget/packages/",
         "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
         ],
@@ -291,6 +295,7 @@
         "packagesPath": "/Users/rafaelpl/.nuget/packages/",
         "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
         ],

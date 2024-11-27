@@ -31,6 +31,7 @@ public class HeroRepository : IHeroRepository
         updateHero.LastName = hero.LastName;
         updateHero.Place = hero.Place;
         updateHero.Power = hero.Power;
+        updateHero.IsActive = hero.IsActive;
         
         _context.SuperHeroes.Update(updateHero);
         _context.SaveChanges();

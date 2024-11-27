@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using SuperApp.Application.Authentication.Commands;
 using SuperApp.Application.Authentication.Commands.Login;
 using SuperApp.Application.Authentication.Commands.Register;
 
@@ -18,7 +19,7 @@ public class AuthenticationController : Controller
     }
 
     [HttpPost("login")]
-    public IActionResult Login(LoginUserDTO user)
+    public ActionResult<AuthenticationResultDTO> Login(LoginUserDTO user)
     {
         var auth = _loginUser.Execute(user);
         return Ok(auth);

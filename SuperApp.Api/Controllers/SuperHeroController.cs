@@ -9,7 +9,7 @@ namespace SuperApp.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-[Authorize]
+// [Authorize]
 public class SuperHeroController : Controller
 {
     private readonly IGetAllHeroQuery _getAllHeroQuery;
@@ -35,7 +35,8 @@ public class SuperHeroController : Controller
     [HttpGet]
     public Task<ActionResult<List<SuperHeroDTO>>> GetAllHeroes()
     {
-        return Task.FromResult<ActionResult<List<SuperHeroDTO>>>(Ok(_getAllHeroQuery.Execute()));
+        var retorno = _getAllHeroQuery.Execute();
+        return Task.FromResult<ActionResult<List<SuperHeroDTO>>>(Ok(retorno));
     }
     
     [HttpGet("{id}")]
@@ -67,7 +68,7 @@ public class SuperHeroController : Controller
     }
     
     [HttpPut]
-    public ActionResult<SuperHeroDTO> InsertHero(SuperHeroDTO updateSuperHeroDto)
+    public ActionResult<SuperHeroDTO> UpdateHero(SuperHeroDTO updateSuperHeroDto)
     {
         var superHeroDto = _updateHeroCommand.Execute(updateSuperHeroDto);
 
