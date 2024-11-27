@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rRpMRJol+PILdb92uUCiBOu0uR39TxSfCKnRPO/aeBvYGc7cnEIrAjhhMVhjOwHhbvJoQva6+tMWuBjWcLhPrA==",
+  "dgSpecHash": "GjTqGg1BOlA=",
   "success": true,
-  "projectFilePath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/SuperApp.Application.csproj",
+  "projectFilePath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Application/SuperApp.Application.csproj",
   "expectedPackageFiles": [
     "/Users/rafaelpl/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.3.24172.9/microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512"
   ],

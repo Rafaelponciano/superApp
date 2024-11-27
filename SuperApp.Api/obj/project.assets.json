@@ -4882,12 +4882,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/SuperApp.Api.csproj",
+      "projectUniqueName": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Api/SuperApp.Api.csproj",
       "projectName": "SuperApp.Api",
-      "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/SuperApp.Api.csproj",
+      "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Api/SuperApp.Api.csproj",
       "packagesPath": "/Users/rafaelpl/.nuget/packages/",
-      "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/obj/",
+      "outputPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Api/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
       ],
@@ -4901,11 +4902,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/SuperApp.Application.csproj": {
-              "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Application/SuperApp.Application.csproj"
+            "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Application/SuperApp.Application.csproj": {
+              "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Application/SuperApp.Application.csproj"
             },
-            "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/SuperApp.Infrastructure.csproj": {
-              "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Infrastructure/SuperApp.Infrastructure.csproj"
+            "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Infrastructure/SuperApp.Infrastructure.csproj": {
+              "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Infrastructure/SuperApp.Infrastructure.csproj"
             }
           }
         }
@@ -4914,6 +4915,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

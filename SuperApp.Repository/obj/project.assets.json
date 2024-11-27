@@ -4407,12 +4407,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/SuperApp.Repository.csproj",
+      "projectUniqueName": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Repository/SuperApp.Repository.csproj",
       "projectName": "SuperApp.Repository",
-      "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/SuperApp.Repository.csproj",
+      "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Repository/SuperApp.Repository.csproj",
       "packagesPath": "/Users/rafaelpl/.nuget/packages/",
-      "outputPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Repository/obj/",
+      "outputPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Repository/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/rafaelpl/.nuget/NuGet/NuGet.Config"
       ],
@@ -4426,8 +4427,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/SuperApp.Domain.csproj": {
-              "projectPath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Domain/SuperApp.Domain.csproj"
+            "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/SuperApp.Domain.csproj": {
+              "projectPath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Domain/SuperApp.Domain.csproj"
             }
           }
         }
@@ -4436,6 +4437,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {

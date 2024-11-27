@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BfOXVtdf/wvCFxli1dyB9/OaKUMZ81SwvCqyXinohd1SAP05mwK9BKhW06byUIvLphnToTLS1P4YStB34HOcGQ==",
+  "dgSpecHash": "SkMEzr6yVYs=",
   "success": true,
-  "projectFilePath": "/Users/rafaelpl/Projetos/SuperApp/SuperApp/SuperApp.Api/SuperApp.Api.csproj",
+  "projectFilePath": "/Users/rafaelpl/RiderProjects/superApp/SuperApp.Api/SuperApp.Api.csproj",
   "expectedPackageFiles": [
     "/Users/rafaelpl/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/rafaelpl/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
